@@ -1,3 +1,4 @@
+Plug 'derekwyatt/vim-scala'
 Plug 'klen/python-mode'
 Plug 'Valloric/YouCompleteMe'
 Plug 'Raimondi/delimitMate'
