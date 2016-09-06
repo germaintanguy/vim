@@ -1,3 +1,4 @@
+Plug 'sickill/vim-monokai'
 Plug 'derekwyatt/vim-scala'
 Plug 'klen/python-mode'
 Plug 'Valloric/YouCompleteMe'
