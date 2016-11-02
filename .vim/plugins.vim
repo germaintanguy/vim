@@ -1,6 +1,5 @@
-Plug 'tmhedberg/SimpylFold'
 Plug 'elzr/vim-json'
-Plug 'Yggdroot/indentLine'
+Plug 'tmhedberg/SimpylFold'
 Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'
 Plug 'crusoexia/vim-dracula'
 Plug 'altercation/vim-colors-solarized'
