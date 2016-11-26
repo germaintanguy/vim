@@ -14,6 +14,10 @@ set wildmenu
  " Create the 'tags' file (may need to install ctags first)
 command! MakeTags !ctags -R .
 
-" Folding save
-" au BufWinLeave * mkview
-" au BufWinEnter * silent loadview
+" Save Fold
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview 
+au BufWinEnter * normal zM
+
+"" Insert mode
+imap jj <Esc>
